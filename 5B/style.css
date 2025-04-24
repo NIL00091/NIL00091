@@ -1,0 +1,20 @@
+body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+#nav {
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+#section {
+  background-color: lightyellow;
+  padding: 15px;
+}
