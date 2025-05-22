@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Partners - My Final Project</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .wrapper {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1 0 auto;
+    }
+    footer {
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Navbar (set Partners as active) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+          My Final Project
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link active" href="partners.html">Partners</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container my-5">
+      <h2>Our Partners</h2>
+      <div class="row text-center">
+        <div class="col-md-3 mb-4">
+          <a href="https://www.microsoft.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" class="img-fluid" style="max-height: 80px;">
+          </a>
+        </div>
+        <div class="col-md-3 mb-4">
+          <a href="https://www.google.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" class="img-fluid" style="max-height: 80px;">
+          </a>
+        </div>
+        <div class="col-md-3 mb-4">
+          <a href="https://www.apple.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple" class="img-fluid" style="max-height: 80px;">
+          </a>
+        </div>
+        <div class="col-md-3 mb-4">
+          <a href="https://www.ibm.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" class="img-fluid" style="max-height: 80px;">
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <div class="mb-2">
+          <a href="https://facebook.com" target="_blank" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="https://twitter.com" target="_blank" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="https://instagram.com" target="_blank" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+        </div>
+        <p class="mb-0">&copy; 2025 My Final Project. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
